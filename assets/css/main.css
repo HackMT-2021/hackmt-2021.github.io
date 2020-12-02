@@ -667,8 +667,11 @@ input, select, textarea {
 		.image.left, .image.right {
 			max-width: 40%;
 		}
+		.image.center {
+			max-width: 80%;
+		}
 
-			.image.left img, .image.right img {
+			.image.left img, .image.right img, .image.center img {
 				width: 100%;
 			}
 
@@ -681,6 +684,12 @@ input, select, textarea {
 		.image.right {
 			float: right;
 			padding: 0 0 1em 1.5em;
+			top: 0.25em;
+		}
+
+		.image.center {
+		        float: center;
+			padding: 0 1.5em 1em 1.5em;
 			top: 0.25em;
 		}
 
